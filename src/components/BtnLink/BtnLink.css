@@ -1,0 +1,17 @@
+.BtnLink {
+  position: fixed;
+  font-size: 25px;
+  padding: 20px 40px;
+  right: 103px;
+  bottom: 50px;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgb(210, 210, 210);
+  transition: background 0.1s ease-in-out;
+  text-decoration: none;
+  user-select: none;
+}
+
+.BtnLink:hover {
+  background: rgb(235, 235, 235);
+  transition: background 0.1s ease-in-out;
+}

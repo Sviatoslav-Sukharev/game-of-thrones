@@ -1,0 +1,40 @@
+.Card {
+  background: rgba(255, 255, 255, 0.25);
+  transition: background 0.1s ease-in-out;
+  padding: 30px;
+  margin: 3px;
+  flex: 1 1 400px;
+  position: relative;
+}
+
+.Card:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transition: background 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.Card__title {
+  margin-top: 0px;
+  font-size: 40px;
+  user-select: none;
+}
+
+.Card__description {
+  font-size: 30px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.Card__fav-btn {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  font-size: 40px;
+  transition: all 0.1s ease-in-out;
+  user-select: none;
+}
+
+.Card__fav-btn:hover {
+  transform: scale(1.3, 1.3);
+  transition: all 0.1s ease-in-out;
+}

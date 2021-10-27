@@ -1,0 +1,40 @@
+.Header {
+  display: flex;
+}
+
+.Header__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  font-size: 35px;
+  color: inherit;
+  text-decoration: none;
+  flex: 1 1 auto;
+  background: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0) 100%);
+  position: relative;
+  user-select: none;
+}
+
+.Header__item:hover {
+  background: linear-gradient(0deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0) 100%);
+}
+
+.Header__item_active {
+  background: linear-gradient(0deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0) 100%);
+}
+
+.Header__fav-number {
+  position: absolute;
+  top: 40px;
+  left: calc(50% + 90px);
+  padding: 0px 7px;
+  font-size: 24px;
+  font-weight: 600;
+  background: rgb(224, 224, 224);
+  color: rgb(30, 30, 30);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}

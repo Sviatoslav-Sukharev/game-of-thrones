@@ -1,0 +1,11 @@
+.Page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.Page__container {
+  padding: 50px 100px 170px 100px;
+}

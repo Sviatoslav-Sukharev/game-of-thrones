@@ -1,0 +1,28 @@
+.Favourites {
+  display: flex;
+  flex-direction: column;
+}
+
+.Favourites__title {
+  align-self: center;
+  font-size: 50px;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.Favourites__text {
+  font-size: 30px;
+  font-weight: 300;
+  color: inherit;
+  user-select: none;
+}
+
+.Favourites__title:first-child {
+  margin-top: 0px;
+}
+
+.Favourites__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
