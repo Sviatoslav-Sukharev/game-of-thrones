@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/game-of-thrones/static/css/main.c84648c3.chunk.css",
+    "main.js": "/game-of-thrones/static/js/main.5f8ab816.chunk.js",
+    "main.js.map": "/game-of-thrones/static/js/main.5f8ab816.chunk.js.map",
+    "runtime-main.js": "/game-of-thrones/static/js/runtime-main.82fece24.js",
+    "runtime-main.js.map": "/game-of-thrones/static/js/runtime-main.82fece24.js.map",
+    "static/js/2.7d34447a.chunk.js": "/game-of-thrones/static/js/2.7d34447a.chunk.js",
+    "static/js/2.7d34447a.chunk.js.map": "/game-of-thrones/static/js/2.7d34447a.chunk.js.map",
+    "index.html": "/game-of-thrones/index.html",
+    "static/css/main.c84648c3.chunk.css.map": "/game-of-thrones/static/css/main.c84648c3.chunk.css.map",
+    "static/js/2.7d34447a.chunk.js.LICENSE.txt": "/game-of-thrones/static/js/2.7d34447a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82fece24.js",
+    "static/js/2.7d34447a.chunk.js",
+    "static/css/main.c84648c3.chunk.css",
+    "static/js/main.5f8ab816.chunk.js"
+  ]
+}
